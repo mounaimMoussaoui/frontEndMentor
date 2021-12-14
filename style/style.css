@@ -29,6 +29,15 @@ a {
 p {
     color: var(--color-blue);
     line-height: 1.7;
+    width: 48%;
+    margin: auto;
+}
+
+
+@media (max-width:668px) {
+    p {
+        width: 100%;
+    }
 }
 
 h1 , h3 {
@@ -36,8 +45,15 @@ h1 , h3 {
 }
 
 h1 {
+    white-space: nowrap;
     font-weight: 600;
     margin-bottom: 15px;
+}
+
+@media (max-width:668px) {
+    h1 {
+        white-space: normal;
+    }
 }
 
 h3 {
@@ -69,14 +85,18 @@ div.landing {
     transition: 0.5s;
 }
 
+div.landing div.container {
+    height: 70vh;
+}
+
 @media (max-width:668px) {
+    div.landing div.container {
+        height: 100vh;
+    }
+
     div.landing {
         background-image: url(../images/bg-header-mobile.png);
     }
-}
-
-div.landing div.container {
-    height: 80vh;
 }
 
 div.landing div.container ,
@@ -94,7 +114,7 @@ div.landing div.container img {
 }
 
 div.landing div.container .text-content {
-    max-width: 40%;
+    width: 100%;
 }
 
 div.landing div.container .text-content h1 {
@@ -177,7 +197,7 @@ div.landing div.container .links a:last-of-type:hover,
 
 .keep .container .content-text {
     text-align: center;
-    width: 45%;
+    width: 100%;
     margin: 0px auto 60px;
 }
 
@@ -192,14 +212,14 @@ div.landing div.container .links a:last-of-type:hover,
 }
 
 .keep .container .content-box img {
-    width: 50%;
+    width: 100%;
     position: relative;
     left: -60px;
+    transition: 00.5s;
 }
 
-@media (max-width:668px) {
+@media (max-width:992px) {
     .keep .container .content-box img {
-        width: 100%;
         left: 0px;
         margin-bottom: 20px;
     }
@@ -212,7 +232,7 @@ div.landing div.container .links a:last-of-type:hover,
     align-items: center;
 }
 
-@media (max-width:668px) {
+@media (max-width:992px) {
     .keep .container .content-box  {
         flex-direction: column;
     }
@@ -228,20 +248,27 @@ div.landing div.container .links a:last-of-type:hover,
     width: 100%;
 }
 
+@media (max-width:992px) {
+    .keep .container .content-box .container-boxs .box {
+        text-align: center;
+    }
+}
+
 .keep .container .content-box .container-boxs .box h3 {
     white-space: nowrap;
     margin-bottom: 15px;
 }
 
 .keep .container .content-box .container-boxs .box p {
-    width: 55%;
+    width: 100%;
+    margin: 0%;
 }
 
-@media (max-width:668px) {
+/* @media (max-width:668px) {
     .keep .container .content-box .container-boxs .box p {
         width: 100%;
     }
-}
+} */
 
 .access .container {
     display: flex;
@@ -252,16 +279,16 @@ div.landing div.container .links a:last-of-type:hover,
 }
 
 .access .container .content-text {
-    width: 45%;
+    width: 100%;
     margin: 0px auto 60px;
     text-align: center;
 }
 
-@media (max-width:668px) {
+/* @media (max-width:668px) {
     .access .container .content-text {
         width: 100%;
     }
-}
+} */
 
 .access .container .content-text h1 {
     margin-bottom: 15px;
@@ -272,7 +299,7 @@ div.landing div.container .links a:last-of-type:hover,
 }
 
 .access .container img {
-    width: 100%;
+    max-width: 100%;
 }
 
 .super-charger .container {
@@ -283,29 +310,36 @@ div.landing div.container .links a:last-of-type:hover,
     align-items: center;
 }
 
-@media (max-width:668px) {
+/* @media (max-width:668px) {
     .super-charger .container {
         max-width: 100%;
     }
-}
+} */
 
 .super-charger .container .content-text {
-    max-width: fit-content;
+    width: 100%;
     margin-block: 0px 60px;
     text-align: center;
 }
 
-@media (max-width:668px) {
+/* @media (max-width:668px) {
     .super-charger .container .content-text {
         max-width: 100%;
     }
-}
+} */
 
 .super-charger .container .boxs-content {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
-    gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    /* gap: -31px; */
+    padding-inline: 85px;
+}
+
+@media (max-width:668px) {
+    .super-charger .container .boxs-content {
+        padding-inline: 0px;
+    }
 }
 
 .super-charger .container .boxs-content .box {
@@ -326,19 +360,19 @@ div.landing div.container .links a:last-of-type:hover,
 }
 
 .images .container {
-    /* margin-top: 150px; */
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
     gap: 40px;
     place-items: center;
+    padding-inline: 90px;
 }
 
 /* .images .container img {
     max-width: 100%;
 } */
 .cliboard .container .text-content {
-    max-width: 55%;
+    width: 100%;
     margin-block: 0px 60px;
     text-align: center;
 }
@@ -356,7 +390,8 @@ div.landing div.container .links a:last-of-type:hover,
 
 .cliboard .container .text-content p {
     margin-block-end: 25px;
-    width: fit-content;
+    width: 69%;
+    margin: auto;
 }
 
 footer {
