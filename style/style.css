@@ -61,7 +61,7 @@ h3 {
 
 .container {
     padding-inline: 40px;
-    margin-block-end: 80px;
+    margin-bottom: 160px;
 }
 
 @media (max-width:668px) {
@@ -85,8 +85,8 @@ div.header {
 }
 
 div.header div.container {
-    height: 50vh;
-    margin-block-end: 0px;
+    height: 48vh;
+    margin-bottom: 0px;
 }
 
 @media (max-width:668px) {
@@ -98,6 +98,12 @@ div.header div.container {
         background-image: url(../images/bg-header-mobile.png);
     }
 }
+
+div.landing {
+    position: relative;
+    top: -40px;
+}
+
 div.header div.container ,
 div.landing div.container ,
 .cliboard .container {
@@ -109,16 +115,12 @@ div.landing div.container ,
     text-align: center;
 }
 
-div.landing div.container img {
-    margin-bottom: 35px;
-}
-
 div.landing div.container .text-content {
     width: 100%;
 }
 
 div.landing div.container .text-content h1 {
-    margin-block-end: 20px;
+    margin-bottom: 28px;
 }
 
 @media (max-width:668px) {
@@ -128,7 +130,7 @@ div.landing div.container .text-content h1 {
 }
 
 div.landing div.container .text-content p {
-    margin-block-end: 30px;
+    margin-bottom: 57px;
     max-width: 100%;
 }
 
@@ -152,11 +154,10 @@ div.landing div.container .links a,
 .cliboard .container .links a {
     display: block;
     white-space: nowrap;
-    padding: 10px 20px;
+    padding: 18px 36px;
     color: white;
     border-radius: 30px;
-    margin-inline: 10px;
-    margin-block: 10px;
+    margin-inline: 15px;
     transition: 0.3s;
     width: 100%;
 }
@@ -198,7 +199,7 @@ div.landing div.container .links a:last-of-type:hover,
 .keep .container .content-text {
     text-align: center;
     width: 100%;
-    margin: 0px auto 60px;
+    margin: 0px auto 78px;
 }
 
 @media (max-width:668px) {
@@ -208,13 +209,12 @@ div.landing div.container .links a:last-of-type:hover,
 }
 
 .keep .container .content-text h1 {
-    margin-bottom: 25px;
+    margin-bottom: 28px;
 }
 
 .keep .container .content-box img {
-    width: 100%;
     position: relative;
-    left: -60px;
+    left: -110px;
     transition: 00.5s;
 }
 
@@ -228,7 +228,7 @@ div.landing div.container .links a:last-of-type:hover,
 .keep .container .content-box {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -239,7 +239,8 @@ div.landing div.container .links a:last-of-type:hover,
 }
 
 .keep .container .content-box .container-boxs {
-    gap: 50px;
+    gap: 70px;
+    width: 28%;
     display: flex;
     flex-direction: column;
 }
@@ -256,7 +257,7 @@ div.landing div.container .links a:last-of-type:hover,
 
 .keep .container .content-box .container-boxs .box h3 {
     white-space: nowrap;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .keep .container .content-box .container-boxs .box p {
@@ -270,16 +271,17 @@ div.landing div.container .links a:last-of-type:hover,
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-bottom: 90px;
 }
 
 .access .container .content-text {
     width: 100%;
-    margin: 0px auto 60px;
+    margin: 0px auto 100px;
     text-align: center;
 }
 
 .access .container .content-text h1 {
-    margin-bottom: 15px;
+    margin-bottom: 28px;
 }
 
 .access .container .content-text p {
@@ -287,7 +289,7 @@ div.landing div.container .links a:last-of-type:hover,
 }
 
 .access .container img {
-    max-width: 100%;
+    width: 63%;
 }
 
 .super-charger .container {
@@ -300,7 +302,7 @@ div.landing div.container .links a:last-of-type:hover,
 
 .super-charger .container .content-text {
     width: 100%;
-    margin-block: 0px 60px;
+    margin-bottom: 71px;
     text-align: center;
 }
 
@@ -308,7 +310,7 @@ div.landing div.container .links a:last-of-type:hover,
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
-    padding-inline: 85px;
+    padding-inline: 86px;
 }
 
 @media (max-width:668px) {
@@ -325,12 +327,12 @@ div.landing div.container .links a:last-of-type:hover,
 }
 
 .super-charger .container .boxs-content .box p {
-    width: fit-content;
-    padding: 5px 15px;
+    width: 100%;
 }
 
 .super-charger .container .boxs-content .box h3 {
-    margin-block: 30px 15px;
+    margin-top: 45px;
+    margin-bottom: 30px;
     white-space: nowrap;
 }
 
@@ -340,12 +342,12 @@ div.landing div.container .links a:last-of-type:hover,
     grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
     gap: 40px;
     place-items: center;
-    padding-inline: 90px;
+    padding: 0px 110px;
 }
 
 .cliboard .container .text-content {
     width: 100%;
-    margin-block: 0px 60px;
+    margin-bottom: 55px;
     text-align: center;
 }
 
@@ -356,12 +358,11 @@ div.landing div.container .links a:last-of-type:hover,
 }
 
 .cliboard .container .text-content  h1 {
-    margin-bottom: 15px;
+    margin-bottom: 28px;
 }
 
 .cliboard .container .text-content p {
-    margin-block-end: 25px;
-    width: 69%;
+    width: 50%;
     margin: auto;
 }
 
@@ -371,10 +372,10 @@ footer {
 
 footer .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    padding: 20px 30px;
+    padding: 20px 40px;
     margin-bottom: 0%;
 }
 
@@ -385,8 +386,8 @@ footer .container {
 }
 
 footer .container > img {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
 }
 
 footer .container ul.contacts {
