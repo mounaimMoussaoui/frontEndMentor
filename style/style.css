@@ -60,8 +60,8 @@ h3 {
 }
 
 .container {
-    padding-inline: 40px;
-    margin-bottom: 160px;
+    /* padding-inline: 40px; */
+    margin-bottom: 135px;
 }
 
 @media (max-width:668px) {
@@ -85,7 +85,7 @@ div.header {
 }
 
 div.header div.container {
-    height: 48vh;
+    height: 45vh;
     margin-bottom: 0px;
 }
 
@@ -101,7 +101,7 @@ div.header div.container {
 
 div.landing {
     position: relative;
-    top: -40px;
+    top: -48px;
 }
 
 div.header div.container ,
@@ -120,7 +120,7 @@ div.landing div.container .text-content {
 }
 
 div.landing div.container .text-content h1 {
-    margin-bottom: 28px;
+    margin-bottom: 25px;
 }
 
 @media (max-width:668px) {
@@ -130,7 +130,7 @@ div.landing div.container .text-content h1 {
 }
 
 div.landing div.container .text-content p {
-    margin-bottom: 57px;
+    margin-bottom: 43px;
     max-width: 100%;
 }
 
@@ -154,10 +154,10 @@ div.landing div.container .links a,
 .cliboard .container .links a {
     display: block;
     white-space: nowrap;
-    padding: 18px 36px;
+    padding: 14px 35px;
     color: white;
     border-radius: 30px;
-    margin-inline: 15px;
+    margin-inline: 12px;
     transition: 0.3s;
     width: 100%;
 }
@@ -199,7 +199,7 @@ div.landing div.container .links a:last-of-type:hover,
 .keep .container .content-text {
     text-align: center;
     width: 100%;
-    margin: 0px auto 78px;
+    margin: 0px auto 74px;
 }
 
 @media (max-width:668px) {
@@ -209,12 +209,12 @@ div.landing div.container .links a:last-of-type:hover,
 }
 
 .keep .container .content-text h1 {
-    margin-bottom: 28px;
+    margin-bottom: 25px;
 }
 
 .keep .container .content-box img {
     position: relative;
-    left: -110px;
+    left: -100px;
     transition: 00.5s;
 }
 
@@ -257,7 +257,7 @@ div.landing div.container .links a:last-of-type:hover,
 
 .keep .container .content-box .container-boxs .box h3 {
     white-space: nowrap;
-    margin-bottom: 25px;
+    margin-bottom: 18px;
 }
 
 .keep .container .content-box .container-boxs .box p {
@@ -276,16 +276,12 @@ div.landing div.container .links a:last-of-type:hover,
 
 .access .container .content-text {
     width: 100%;
-    margin: 0px auto 100px;
+    margin: 0px auto 70px;
     text-align: center;
 }
 
 .access .container .content-text h1 {
-    margin-bottom: 28px;
-}
-
-.access .container .content-text p {
-    margin-block-end: 25px;
+    margin-bottom: 25px;
 }
 
 .access .container img {
@@ -302,7 +298,7 @@ div.landing div.container .links a:last-of-type:hover,
 
 .super-charger .container .content-text {
     width: 100%;
-    margin-bottom: 71px;
+    margin-bottom: 62px;
     text-align: center;
 }
 
@@ -331,23 +327,23 @@ div.landing div.container .links a:last-of-type:hover,
 }
 
 .super-charger .container .boxs-content .box h3 {
-    margin-top: 45px;
-    margin-bottom: 30px;
+    margin-top: 38px;
+    margin-bottom: 25px;
     white-space: nowrap;
 }
 
 .images .container {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
-    gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(165px,1fr));
+    gap: 30px;
     place-items: center;
     padding: 0px 110px;
 }
 
 .cliboard .container .text-content {
     width: 100%;
-    margin-bottom: 55px;
+    margin-bottom: 44px;
     text-align: center;
 }
 
@@ -358,7 +354,7 @@ div.landing div.container .links a:last-of-type:hover,
 }
 
 .cliboard .container .text-content  h1 {
-    margin-bottom: 28px;
+    margin-bottom: 25px;
 }
 
 .cliboard .container .text-content p {
