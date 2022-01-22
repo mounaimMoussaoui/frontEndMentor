@@ -101,7 +101,7 @@ div.header div.container {
 
 div.landing {
     position: relative;
-    top: -48px;
+    top: -55px;
 }
 
 div.header div.container ,
@@ -182,9 +182,9 @@ div.landing div.container .links a:last-of-type:hover,
     box-shadow: 0px 10px 20px 0px #fff, 2px 10px 15px 0px hsl(201deg 7% 73% / 65%);
 }
 
-.kep {
+.keep {
     position: relative;
-    top: -48px;
+    top: -50px;
 }
 
 .keep .container {
@@ -233,8 +233,7 @@ div.landing div.container .links a:last-of-type:hover,
 .keep .container .content-box {
     display: flex;
     width: 100%;
-    /* justify-content: space-evenly; */
-    column-gap: 60px;
+    column-gap: 65px;
     align-items: center;
 }
 
@@ -273,7 +272,7 @@ div.landing div.container .links a:last-of-type:hover,
 .access ,
 .super-charger  {
     position: relative;
-    top: -48px;
+    top: -40px;
 }
 .access .container {
     display: flex;
@@ -346,9 +345,8 @@ div.landing div.container .links a:last-of-type:hover,
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(165px,1fr));
-    gap: 30px;
     place-items: center;
-    padding: 0px 110px;
+    padding: 0px 100px;
 }
 
 .cliboard .container .text-content {
